@@ -1,0 +1,13 @@
+@mixin responsive($screen) {
+    @if ($screen == 'Tablet') {
+        @media screen and (min-width: $md-breakpoint) {
+            @content; //content block 필요 선언
+        }
+    }
+
+    @if ($screen == 'Desktop') {
+        @media screen and (min-width: $lg-breakpoint) {
+            @content;
+        }
+    }
+}

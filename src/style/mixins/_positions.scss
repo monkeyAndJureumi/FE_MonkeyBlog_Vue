@@ -1,0 +1,27 @@
+//가로축 가운데 정렬
+@mixin position-center-x($type: absolute) {
+    @if ($type == absolute or $type == fixed) {
+        position: $type;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+//세로축 가운데 정렬
+@mixin position-center-y($type: absolute) {
+    @if ($type == absolute or $type == fixed) {
+        position: $type;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+
+//가로,세로 모두 가운데 정렬
+@mixin position-center($type: absolute) {
+    @if ($type == absolute or $type == fixed) {
+        position: $type;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
