@@ -1,6 +1,6 @@
 <template>
     <div class="sm-hide">
-        <h2>{{ msg }}</h2>
+        <h2 class="title">{{ msg }}</h2>
     </div>
     <div>
         <i class="ic-search"> </i>
@@ -19,5 +19,4 @@ export default {
 };
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss"></style>

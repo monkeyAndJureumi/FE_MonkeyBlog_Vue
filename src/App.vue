@@ -14,5 +14,7 @@ export default {
 </script>
 
 <style lang="scss">
-@import 'style/main.scss';
+.title {
+    color: $font;
+}
 </style>

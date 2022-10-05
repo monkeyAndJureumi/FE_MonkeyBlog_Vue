@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap');
-//공통 상수
+//constants
 @import './constants/colors';
 @import './constants/breakpoints';
 @import './constants/typography';
@@ -10,8 +10,11 @@
 @import './bases/fonts';
 @import './bases/common';
 
-//mixin
+//mixins
 @import './mixins/flexbox';
 @import './mixins/positions';
 @import './mixins/responsive';
 @import './mixins/text';
+
+//layouts
+@import './_layouts/Test';
