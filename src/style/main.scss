@@ -16,5 +16,8 @@
 @import './mixins/responsive';
 @import './mixins/text';
 
+//modules
+@import './modules/buttons';
+
 //layouts
 @import './_layouts/Test';

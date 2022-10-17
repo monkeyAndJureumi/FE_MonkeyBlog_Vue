@@ -1,0 +1,12 @@
+%button-base {
+    @include inline-flexbox(center, center);
+    font-size: $font-size-16;
+    font-weight: 700;
+    border-radius: 8px;
+}
+
+.btn-lg {
+    @extend %button-base;
+    width: 240px;
+    height: 48px;
+}
