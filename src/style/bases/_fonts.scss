@@ -1,11 +1,11 @@
 // sass-lint:disable-all
 @font-face {
     font-family: 'tomorrow';
-    src: url('./assets/fonts/monkey-blog.eot?opo9xh');
-    src: url('./assets/fonts/monkey-blog.eot?opo9xh#iefix') format('embedded-opentype'),
-        url('./assets/fonts/monkey-blog.ttf?opo9xh') format('truetype'),
-        url('./assets/fonts/monkey-blog.woff?opo9xh') format('woff'),
-        url('./assets/fonts/monkey-blog.svg?opo9xh#tomorrow') format('svg');
+    src: url('~@/assets/fonts/monkey-blog.eot?opo9xh');
+    src: url('~@/assets/fonts/monkey-blog.eot?opo9xh#iefix') format('embedded-opentype'),
+        url('~@/assets/fonts/monkey-blog.ttf?opo9xh') format('truetype'),
+        url('~@/assets/fonts/monkey-blog.woff?opo9xh') format('woff'),
+        url('~@/assets/fonts/monkey-blog.svg?opo9xh#tomorrow') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: block;
