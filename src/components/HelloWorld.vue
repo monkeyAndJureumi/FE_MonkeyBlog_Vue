@@ -8,6 +8,12 @@
         <i class="ic-kakao"> </i>
         <i class="ic-menu"> </i>
     </div>
+    <div>
+        <i class="ic-search"> </i>
+        <i class="ic-naver"> </i>
+        <i class="ic-kakao"> </i>
+        <i class="ic-menu"> </i>
+    </div>
 </template>
 
 <script>
