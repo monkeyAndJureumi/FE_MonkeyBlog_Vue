@@ -5,8 +5,44 @@
     border-radius: 8px;
 }
 
+%button-fill-base {
+    @extend %button-base;
+    color: $white;
+    transition: background-color 200ms ease-in-out;
+
+    &:hover {
+        opacity: 60%;
+    }
+
+    &:disabled {
+        cursor: not-allowed;
+        opacity: 40%;
+    }
+}
+
 .btn-lg {
     @extend %button-base;
     width: 240px;
     height: 48px;
+}
+
+.btn-sm {
+    @extend %button-base;
+    width: 64px;
+    height: 24px;
+}
+
+.btn-pos {
+    @extend %button-fill-base;
+    background-color: $positive;
+}
+
+.btn-active {
+    @extend %button-fill-base;
+    background-color: $active;
+}
+
+.btn-caution {
+    @extend %button-fill-base;
+    background-color: $caution;
 }
